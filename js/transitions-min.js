@@ -1,0 +1,1 @@
+$("nav a").on("click",function(n){n.preventDefault();const t=$(this).attr("href");window.history.pushState(null,null,t),$("nav a").removeClass("active"),$(this).addClass("active"),$.ajax({url:t,success:function(n){$("#main-content").fadeOut(250,function(){const t=$(n).filter("#main-content").html();$("#main-content").html(t),$("#main-content").fadeIn(250)})}})});

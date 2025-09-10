@@ -1,0 +1,21 @@
+{
+  "short_name": "Luke Burford",
+  "name": "Luke Burford",
+  "icons": [
+    {
+      "src": "/favicon/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/favicon/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#FCD91E",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#FCD91E"
+}
